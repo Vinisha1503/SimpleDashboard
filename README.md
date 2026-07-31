@@ -10,7 +10,7 @@
   <img src="https://github.com/user-attachments/assets/0e3b5c8c-b44e-4191-b7e1-908c54274ec7" width="45%" />
 </p>
 
-A simplified, large-format PiHub interface designed for a 10.1-inch 1280×800 tablet.
+A full-stack simplified dashboard designed for a 10.1-inch Raspberry Pi display, providing GitHub, Spotify, Google Calendar and system monitoring in a responsive interface.
 
 ## Pages
 
