@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#090a0c">
+    <title>PiHub Ambient</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+    <main class="screen screen--home">
+        <header class="screen-header">
+            <a class="brand" href="index.html"><i class="fa-brands fa-raspberry-pi"></i><span>PiHub</span></a>
+            <div class="pi-state" id="pi-state"><span></span>Checking Pi</div>
+        </header>
+
+        <section class="home-main">
+            <div class="clock-block">
+                <div class="home-clock">
+                    <span id="home-hours-minutes">22:16</span>
+                    <span id="home-seconds">45</span>
+                </div>
+            
+                <div class="date" id="home-date">
+                    Tuesday, 28 July 2026
+                </div>
+            </div>
+
+            <div class="weather-block">
+                <div class="weather-icon" id="home-weather-icon"><i class="fa-solid fa-cloud"></i></div>
+                <div>
+                    <div class="weather-temp"><span id="home-weather-temp">--</span>°</div>
+                    <div class="weather-copy">
+                        <strong id="home-weather-condition">Loading weather…</strong>
+                        <span id="home-weather-range">--° / --°</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="icon-nav" aria-label="Main navigation">
+            <a class="icon-nav__item is-active" href="index.html">
+                <span><i class="fa-solid fa-house"></i></span><b>Home</b>
+            </a>
+            <a class="icon-nav__item" href="calendar.html">
+                <span><i class="fa-regular fa-calendar"></i></span><b>Calendar</b>
+            </a>
+            <a class="icon-nav__item" href="github.html">
+                <span><i class="fa-brands fa-github"></i></span><b>GitHub</b>
+            </a>
+            <a class="icon-nav__item" href="spotify.html">
+                <span><i class="fa-brands fa-spotify"></i></span><b>Spotify</b>
+            </a>
+            <a class="icon-nav__item" href="settings.html">
+                <span><i class="fa-solid fa-gear"></i></span><b>Settings</b>
+            </a>
+        </nav>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "pihub-ambient",
+  "version": "1.0.0",
+  "description": "A simplified large-format PiHub dashboard designed for a 10.1-inch 1280×800 tablet.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "dashboard",
+    "raspberry-pi",
+    "spotify",
+    "github",
+    "calendar",
+    "tablet"
+  ],
+  "author": "Vinisha Yadav",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "node-ical": "^0.27.1",
+    "session-file-store": "^1.5.0"
+  }
+}

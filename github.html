@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#090a0c">
+    <title>PiHub GitHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="github">
+    <main class="screen">
+        <header class="screen-header">
+            <a class="brand" href="index.html"><i class="fa-brands fa-raspberry-pi"></i><span>PiHub</span></a>
+            <time class="header-clock" data-live-clock>--:--</time>
+        </header>
+
+        <section class="simple-page">
+            <h1>GitHub</h1>
+
+            <div class="stat-row">
+                <article><strong id="gh-contributions">--</strong><span>Contributions</span></article>
+                <article><strong id="gh-commits">--</strong><span>Commits</span></article>
+                <article><strong id="gh-pull-requests">--</strong><span>Pull requests</span></article>
+                <article><strong id="gh-issues">--</strong><span>Issues</span></article>
+            </div>
+
+            <section class="contribution-panel">
+                <div class="contribution-panel__header">
+                    <div>
+                        <span>This year</span>
+                        <strong id="gh-year">----</strong>
+                    </div>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="heatmap" id="gh-heatmap" aria-hidden="true"></div>
+            </section>
+        </section>
+
+        <nav class="bottom-nav" aria-label="Main navigation">
+            <a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a>
+            <a href="calendar.html"><i class="fa-regular fa-calendar"></i><span>Calendar</span></a>
+            <a class="is-active" href="github.html"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+            <a href="spotify.html"><i class="fa-brands fa-spotify"></i><span>Spotify</span></a>
+            <a href="settings.html"><i class="fa-solid fa-gear"></i><span>Settings</span></a>
+        </nav>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/github.js"></script>
+</body>
+</html>
