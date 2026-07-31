@@ -1,16 +1,14 @@
 # PiHub Ambient Dashboard
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d85ae675-4055-44ef-911f-c70432a89ef8" width="30%" />
-  <img src="https://github.com/user-attachments/assets/b1470697-d501-47eb-a765-ba9783f3974e" width="30%" />
-  <img src="https://github.com/user-attachments/assets/d8496e22-cf1c-471f-a035-da93f71b244d" width="30%" />
-
-  <br>
-  <em>fig1: Initial board setup | fig2: Gameplay, depicting king + red for chosen piece.</em>
+  <img src="https://github.com/user-attachments/assets/d85ae675-4055-44ef-911f-c70432a89ef8" width="45%" />
+  <img src="https://github.com/user-attachments/assets/b1470697-d501-47eb-a765-ba9783f3974e" width="45%" />
 </p>
 
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e26b69d7-b5a3-4e2c-8325-f9a32e84c687" width="45%" />
+  <img src="https://github.com/user-attachments/assets/d8496e22-cf1c-471f-a035-da93f71b244d" width="45%" />
+</p>
 
 
 A personal ambient dashboard built using HTML, CSS, JavaScript and Node.js. The application integrates GitHub, Spotify and Google Calendar into a clean, responsive interface designed for a Raspberry Pi-powered display.
