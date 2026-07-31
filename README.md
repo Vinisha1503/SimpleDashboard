@@ -1,4 +1,14 @@
-# PiHub Ambient
+# Simple Pi Dashboard
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d7fb52be-39ec-47e5-8d46-5e99963191bd" width="45%" />
+  <img src="https://github.com/user-attachments/assets/8b9f8819-09df-4e1f-b785-27e37b8375f7" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/71f9707c-bc8e-4295-8b90-894d63d37e01" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0e3b5c8c-b44e-4191-b7e1-908c54274ec7" width="45%" />
+</p>
 
 A simplified, large-format PiHub interface designed for a 10.1-inch 1280×800 tablet.
 
